@@ -11,6 +11,7 @@ function LED1_On() {
     client.send(message);
   
 }
+/*
 function LED1_Off(){    
     alert("led off");
     console.log("led off");
@@ -18,7 +19,8 @@ function LED1_Off(){
     message = new Paho.MQTT.Message("OFF");
     message.destinationName = "javierpcastro33@gmail.com/tema2";
     client.send(message);
-}
+  
+}*/
 
  
 
